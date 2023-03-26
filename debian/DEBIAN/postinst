@@ -1,0 +1,9 @@
+#!/bin/bash
+
+depmod
+
+modprobe bpu_cores
+modprobe bpu_governor
+
+exit 0
+
