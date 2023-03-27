@@ -1,6 +1,6 @@
 #!/bin/bash
 
-depmod
+depmod -a 4.14.87
 
 modprobe bpu_cores
 modprobe bpu_governor
